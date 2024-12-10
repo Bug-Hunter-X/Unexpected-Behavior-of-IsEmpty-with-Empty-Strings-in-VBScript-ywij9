@@ -1,0 +1,3 @@
+This repository demonstrates a subtle bug in VBScript's handling of empty strings with the IsEmpty function. The bug occurs when passing an empty string to a function expecting a numeric argument.  The `IsEmpty` function does not correctly identify the empty string as a missing argument, leading to unexpected addition results.
+
+The `bug.vbs` file contains the buggy code. The `bugSolution.vbs` demonstrates a corrected version using a more robust check for empty or non-numeric input.
